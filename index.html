@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabajo final</title>
+    <!-- IMPORTA CSS PERSONAL-->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- IMPORTA STYLOS DE BOOSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
   </head>
   <body>
+    <!-- MUESTRA EL NAV DEL PROYECTO-->
     <nav class="navbar navbar-light" style="background-color: #330077">
       <a class="navbar-brand" href="#">
         <img src="img/BECA LOGO.png"30" height="30" class="d-inline-block
@@ -19,13 +22,14 @@
 
     <div class="container">
       <h1>Juego del ahoracado</h1>
+      <!-- DIV PARA INGRESO DE DATOS-->
       <div class="input-group mb-3">
         <input type="text" style="text-transform:uppercase" id="rpt" maxlength="1" class="form-control" placeholder="Introdusca Letra" aria-describedby="button-addon2"/>
         <button class="btn btn-outline-secondary" type="button" id="calcular">
           Evaluar letra
         </button>
       </div> 
-      
+        <!-- CARD DE SCORE Y PALABRAS -->
       <div class="card">
       <h4 class="card-header d-flex justify-content-center" id="sol" ></h4>
 
@@ -36,12 +40,13 @@
         </h2>
       </div>
     </div>
+    <!-- DIV MUESTRA IMAGEN QUEW CAMBIA -->
     </div>
 
       <div id="imagen" class="rounded mx-auto d-block"></div>
 
     </div>
-
+<!-- MODAL DE PERDIDA O VISCTORIA-->
     <div class="modal bg-light "  id="modalV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
       <div class="modal-dialog">
         <div class="modal-content ">
@@ -64,7 +69,7 @@
         </div>
       </div>
     </div>
-
+<!-- IMPORTA JS-->
     <script src="js/libreria.js"></script>
   </body>
 </html>
